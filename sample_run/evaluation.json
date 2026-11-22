@@ -1,0 +1,62 @@
+{
+  "ground_truth": {
+    "center_world_m": [
+      2.0,
+      0.0,
+      0.25
+    ],
+    "holes_world_m": [
+      [
+        1.94802207729556,
+        0.24453690018345142,
+        0.25
+      ],
+      [
+        2.05197792270444,
+        -0.24453690018345142,
+        0.25
+      ]
+    ],
+    "inward_world": [
+      0.9781476007338057,
+      0.20791169081775934,
+      0.0
+    ],
+    "yaw_deg": 12.0
+  },
+  "views": [
+    {
+      "view": "front",
+      "midpoint_error_mm": 0.8060178314878406,
+      "yaw_error_deg": 8.823950850000983e-07,
+      "raw_hole_depth_m": [
+        4.5,
+        4.5
+      ],
+      "estimated_entry_depth_m": [
+        1.947876073827992,
+        2.0517893889922854
+      ]
+    },
+    {
+      "view": "shifted",
+      "midpoint_error_mm": 0.8958417971747983,
+      "yaw_error_deg": 9.118797038354387e-06,
+      "raw_hole_depth_m": [
+        4.5,
+        2.43125057220459
+      ],
+      "estimated_entry_depth_m": [
+        1.9482451239174625,
+        2.052126932978405
+      ]
+    }
+  ],
+  "cross_view_difference_mm": 1.6993223661965968,
+  "criteria": {
+    "midpoint_mm_lt": 10,
+    "yaw_deg_lt": 0.5,
+    "drift_mm_lt": 10
+  },
+  "pass": true
+}

@@ -1,0 +1,315 @@
+{
+  "single_pallet": {
+    "oracle": {
+      "tasks": 180,
+      "accepted": 180,
+      "refused": 0,
+      "success": 180,
+      "false_accepts": 0,
+      "oracle_feasible": 180,
+      "coverage": 1.0,
+      "wrong_release_rate": 0.0,
+      "feasible_success_rate": 1.0,
+      "feasible_rejections": 0,
+      "revisits": 0,
+      "position_error_mm": {
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "yaw_error_deg": {
+        "median": 0.0,
+        "p95": 0.0
+      },
+      "perception_ms": null,
+      "rendering_ms": null,
+      "validator_ms": {
+        "median": 0.41479995707049966,
+        "p95": 1.2065699906088412
+      }
+    },
+    "ideal_marks": {
+      "tasks": 180,
+      "accepted": 120,
+      "refused": 60,
+      "success": 120,
+      "false_accepts": 0,
+      "oracle_feasible": 180,
+      "coverage": 0.6666666666666666,
+      "wrong_release_rate": 0.0,
+      "feasible_success_rate": 0.6666666666666666,
+      "feasible_rejections": 60,
+      "revisits": 0,
+      "position_error_mm": {
+        "median": 1.3559271533196244,
+        "p95": 2.12107364611482
+      },
+      "yaw_error_deg": {
+        "median": 0.0719725015858046,
+        "p95": 0.22037000086850891
+      },
+      "perception_ms": null,
+      "rendering_ms": null,
+      "validator_ms": {
+        "median": 0.47755002742633224,
+        "p95": 1.2096550082787871
+      }
+    },
+    "single_view": {
+      "tasks": 180,
+      "accepted": 60,
+      "refused": 120,
+      "success": 60,
+      "false_accepts": 0,
+      "oracle_feasible": 180,
+      "coverage": 0.3333333333333333,
+      "wrong_release_rate": 0.0,
+      "feasible_success_rate": 0.3333333333333333,
+      "feasible_rejections": 120,
+      "revisits": 0,
+      "position_error_mm": {
+        "median": 0.5881355397740713,
+        "p95": 1.4990046898878924
+      },
+      "yaw_error_deg": {
+        "median": 0.006709382067171532,
+        "p95": 0.015550331263743543
+      },
+      "perception_ms": {
+        "median": 6.374300050083548,
+        "p95": 8.590304979588836
+      },
+      "rendering_ms": {
+        "median": 28.828600014094263,
+        "p95": 38.606054987758384
+      },
+      "validator_ms": {
+        "median": 0.40505005745217204,
+        "p95": 1.034499960951507
+      }
+    },
+    "one_revisit": {
+      "tasks": 180,
+      "accepted": 120,
+      "refused": 60,
+      "success": 120,
+      "false_accepts": 0,
+      "oracle_feasible": 180,
+      "coverage": 0.6666666666666666,
+      "wrong_release_rate": 0.0,
+      "feasible_success_rate": 0.6666666666666666,
+      "feasible_rejections": 60,
+      "revisits": 120,
+      "position_error_mm": {
+        "median": 0.8147234912609762,
+        "p95": 1.9168526038866722
+      },
+      "yaw_error_deg": {
+        "median": 0.006317405095103368,
+        "p95": 0.017411433938974593
+      },
+      "perception_ms": {
+        "median": 12.197600095532835,
+        "p95": 17.143024899996817
+      },
+      "rendering_ms": {
+        "median": 54.094300081487745,
+        "p95": 71.63439497235228
+      },
+      "validator_ms": {
+        "median": 0.4830000689253211,
+        "p95": 1.2456249445676804
+      }
+    }
+  },
+  "controls": {
+    "empty": {
+      "oracle": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": null,
+        "rendering_ms": null,
+        "validator_ms": null
+      },
+      "ideal_marks": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": null,
+        "rendering_ms": null,
+        "validator_ms": null
+      },
+      "single_view": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": {
+          "median": 2.025499939918518,
+          "p95": 2.4203500302974135
+        },
+        "rendering_ms": {
+          "median": 26.392800034955144,
+          "p95": 30.508990021189675
+        },
+        "validator_ms": null
+      },
+      "one_revisit": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 4,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": {
+          "median": 3.881649929098785,
+          "p95": 4.484854987822473
+        },
+        "rendering_ms": {
+          "median": 49.665700062178075,
+          "p95": 55.9306449489668
+        },
+        "validator_ms": null
+      }
+    },
+    "ambiguous": {
+      "oracle": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": null,
+        "rendering_ms": null,
+        "validator_ms": null
+      },
+      "ideal_marks": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": null,
+        "rendering_ms": null,
+        "validator_ms": null
+      },
+      "single_view": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": {
+          "median": 9.02009999845177,
+          "p95": 9.573605004698038
+        },
+        "rendering_ms": {
+          "median": 25.775099988095462,
+          "p95": 29.825224966043606
+        },
+        "validator_ms": null
+      },
+      "one_revisit": {
+        "tasks": 4,
+        "accepted": 0,
+        "refused": 4,
+        "success": 0,
+        "false_accepts": 0,
+        "oracle_feasible": 0,
+        "coverage": 0.0,
+        "wrong_release_rate": null,
+        "feasible_success_rate": null,
+        "feasible_rejections": 0,
+        "revisits": 0,
+        "position_error_mm": null,
+        "yaw_error_deg": null,
+        "perception_ms": {
+          "median": 9.02009999845177,
+          "p95": 9.573605004698038
+        },
+        "rendering_ms": {
+          "median": 25.775099988095462,
+          "p95": 29.825224966043606
+        },
+        "validator_ms": null
+      }
+    }
+  },
+  "replays": {
+    "easy": "T000",
+    "recovered": "T001",
+    "refused": "T002",
+    "empty": "TN0",
+    "ambiguous": "TM0"
+  },
+  "configuration": {
+    "sigma_axial_m": 0.0015,
+    "dropout_fraction": 0.001,
+    "second_camera_y_m": -0.5,
+    "python": "3.12.3",
+    "numpy": "2.2.6",
+    "opencv": "4.12.0",
+    "opencv_threads": 28,
+    "timing": "CPU wall clock, warmed up; render includes noise. Re-observation includes both renders / detector calls. Excludes physical transit."
+  }
+}

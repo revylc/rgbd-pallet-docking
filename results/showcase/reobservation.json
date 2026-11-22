@@ -1,0 +1,92 @@
+[
+  {
+    "camera_y_m": 0.0,
+    "candidates": [
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          176,
+          150,
+          450,
+          269
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 14097,
+          "plane_rmse_m": 0.00019945609169635614,
+          "plane_backend": "numpy",
+          "aperture_evidence": [
+            {
+              "width_m": 0.3226446795102328,
+              "height_m": 0.2067139583025655,
+              "free_fraction": 1.0
+            }
+          ],
+          "verified_openings": 1
+        },
+        "id": "P1"
+      }
+    ]
+  },
+  {
+    "camera_y_m": -0.5,
+    "candidates": [
+      {
+        "status": "ACCEPT",
+        "reason": "two_verified_openings",
+        "bbox_xyxy": [
+          28,
+          150,
+          317,
+          269
+        ],
+        "center_world_m": [
+          2.000114887885188,
+          -0.0004832881841839165,
+          0.25013584973123526
+        ],
+        "holes_world_m": [
+          [
+            1.9482860563249589,
+            0.2433309981239246,
+            0.25011206045153217
+          ],
+          [
+            2.051943719445417,
+            -0.24429757449229245,
+            0.2501596390109384
+          ]
+        ],
+        "inward_world": [
+          0.9781439248921767,
+          0.20792898354132303,
+          0.0
+        ],
+        "yaw_deg": 12.00101293704285,
+        "diagnostics": {
+          "face_support_points": 16993,
+          "plane_rmse_m": 0.00017842843270727613,
+          "plane_backend": "numpy",
+          "aperture_evidence": [
+            {
+              "width_m": 0.3210610905293485,
+              "height_m": 0.20674520113981074,
+              "free_fraction": 1.0
+            },
+            {
+              "width_m": 0.3223235761655428,
+              "height_m": 0.20636088804376707,
+              "free_fraction": 1.0
+            }
+          ],
+          "verified_openings": 2
+        },
+        "id": "P1"
+      }
+    ]
+  }
+]

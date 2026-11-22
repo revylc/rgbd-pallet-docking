@@ -1,0 +1,276 @@
+{
+  "blue-left": {
+    "instruction": "取蓝色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "P1",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "DOCKED",
+    "expected": "DOCKED",
+    "success": true,
+    "geometry_verdict": {
+      "success": true,
+      "status": "success",
+      "reason": "Both tines entered their openings to the required depth",
+      "achieved_depth_m": 0.34002752297545635,
+      "required_depth_m": 0.3,
+      "contact_fraction": null,
+      "travel_fraction": 1.0
+    }
+  },
+  "red-right": {
+    "instruction": "取红色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "P2",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "DOCKED",
+    "expected": "DOCKED",
+    "success": true,
+    "geometry_verdict": {
+      "success": true,
+      "status": "success",
+      "reason": "Both tines entered their openings to the required depth",
+      "achieved_depth_m": 0.34001199084038497,
+      "required_depth_m": 0.3,
+      "contact_fraction": null,
+      "travel_fraction": 1.0
+    }
+  },
+  "relative": {
+    "instruction": "取右侧蓝色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "P2",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "DOCKED",
+    "expected": "DOCKED",
+    "success": true,
+    "geometry_verdict": {
+      "success": true,
+      "status": "success",
+      "reason": "Both tines entered their openings to the required depth",
+      "achieved_depth_m": 0.34001199084038497,
+      "required_depth_m": 0.3,
+      "contact_fraction": null,
+      "travel_fraction": 1.0
+    }
+  },
+  "absent": {
+    "instruction": "取红色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "ABSENT",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "ABSENT",
+    "expected": "ABSENT",
+    "success": true,
+    "geometry_verdict": null
+  },
+  "ambiguous": {
+    "instruction": "取蓝色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "AMBIGUOUS",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "AMBIGUOUS",
+    "expected": "AMBIGUOUS",
+    "success": true,
+    "geometry_verdict": null
+  },
+  "unsupported": {
+    "instruction": "把易碎货物送到三号站",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "UNSUPPORTED",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          },
+          {
+            "id": "P2",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "UNSUPPORTED",
+    "expected": "UNSUPPORTED",
+    "success": true,
+    "geometry_verdict": null
+  },
+  "reobserve": {
+    "instruction": "取蓝色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "REOBSERVE",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          }
+        ]
+      },
+      {
+        "view_y_m": -0.5,
+        "decision": "P1",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "ACCEPT",
+            "reason": "two_verified_openings"
+          }
+        ]
+      }
+    ],
+    "outcome": "DOCKED",
+    "expected": "DOCKED",
+    "success": true,
+    "geometry_verdict": {
+      "success": true,
+      "status": "success",
+      "reason": "Both tines entered their openings to the required depth",
+      "achieved_depth_m": 0.34000606189404164,
+      "required_depth_m": 0.3,
+      "contact_fraction": null,
+      "travel_fraction": 1.0
+    }
+  },
+  "occluded": {
+    "instruction": "取蓝色料箱下方的托盘",
+    "observations": [
+      {
+        "view_y_m": 0.0,
+        "decision": "REOBSERVE",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          },
+          {
+            "id": "P2",
+            "geometry": "REOBSERVE",
+            "reason": "insufficient_face_support"
+          },
+          {
+            "id": "P3",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          },
+          {
+            "id": "P4",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          }
+        ]
+      },
+      {
+        "view_y_m": -0.5,
+        "decision": "REOBSERVE",
+        "candidates": [
+          {
+            "id": "P1",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          },
+          {
+            "id": "P2",
+            "geometry": "REOBSERVE",
+            "reason": "insufficient_face_support"
+          },
+          {
+            "id": "P3",
+            "geometry": "REOBSERVE",
+            "reason": "two_verified_openings_required"
+          },
+          {
+            "id": "P4",
+            "geometry": "REOBSERVE",
+            "reason": "insufficient_face_support"
+          }
+        ]
+      }
+    ],
+    "outcome": "INSUFFICIENT_VIEW",
+    "expected": "INSUFFICIENT_VIEW",
+    "success": true,
+    "geometry_verdict": null
+  }
+}

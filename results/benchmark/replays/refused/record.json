@@ -1,0 +1,277 @@
+{
+  "trial": "T002",
+  "outcomes": [
+    {
+      "scene_id": "T002",
+      "seed": 745303,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "severe",
+      "kind": "single",
+      "strategy": "oracle",
+      "observations": 0,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "TRUTH_POSE",
+      "dock_status": "success",
+      "position_error_mm": 0.0,
+      "local_forward_error_mm": 0.0,
+      "local_left_error_mm": 0.0,
+      "local_up_error_mm": 0.0,
+      "yaw_error_deg": 0.0,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": 0.48290006816387177
+    },
+    {
+      "scene_id": "T002",
+      "seed": 745303,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "severe",
+      "kind": "single",
+      "strategy": "ideal_marks",
+      "observations": 1,
+      "accepted": false,
+      "success": false,
+      "oracle_feasible": true,
+      "reason": "INSUFFICIENT_ANNOTATIONS",
+      "dock_status": "not_attempted",
+      "position_error_mm": null,
+      "local_forward_error_mm": null,
+      "local_left_error_mm": null,
+      "local_up_error_mm": null,
+      "yaw_error_deg": null,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": null
+    },
+    {
+      "scene_id": "T002",
+      "seed": 745303,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "severe",
+      "kind": "single",
+      "strategy": "single_view",
+      "observations": 1,
+      "accepted": false,
+      "success": false,
+      "oracle_feasible": true,
+      "reason": "FRAGMENTED_OR_OCCLUDED",
+      "dock_status": "not_attempted",
+      "position_error_mm": null,
+      "local_forward_error_mm": null,
+      "local_left_error_mm": null,
+      "local_up_error_mm": null,
+      "yaw_error_deg": null,
+      "render_ms": 36.248199990950525,
+      "perception_ms": 7.904800004325807,
+      "dock_ms": null
+    },
+    {
+      "scene_id": "T002",
+      "seed": 745303,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "severe",
+      "kind": "single",
+      "strategy": "one_revisit",
+      "observations": 2,
+      "accepted": false,
+      "success": false,
+      "oracle_feasible": true,
+      "reason": "FRAGMENTED_OR_OCCLUDED",
+      "dock_status": "not_attempted",
+      "position_error_mm": null,
+      "local_forward_error_mm": null,
+      "local_left_error_mm": null,
+      "local_up_error_mm": null,
+      "yaw_error_deg": null,
+      "render_ms": 67.36420001834631,
+      "perception_ms": 15.595200005918741,
+      "dock_ms": null
+    }
+  ],
+  "candidates": [
+    [
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          178,
+          146,
+          479,
+          156
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 2134,
+          "plane_rmse_m": 0.0014702923730184534,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P1"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          178,
+          247,
+          249,
+          267
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 116,
+          "plane_rmse_m": 0.003485701460569199,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P2"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          289,
+          247,
+          368,
+          274
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 1397,
+          "plane_rmse_m": 0.0014504617454107749,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P3"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "insufficient_face_support",
+        "bbox_xyxy": [
+          445,
+          247,
+          479,
+          281
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {},
+        "id": "P4"
+      }
+    ],
+    [
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          35,
+          146,
+          342,
+          156
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 1962,
+          "plane_rmse_m": 0.0013824965218725725,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P1"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          35,
+          247,
+          128,
+          267
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 145,
+          "plane_rmse_m": 0.0033583666107306507,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P2"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          136,
+          247,
+          239,
+          274
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 1299,
+          "plane_rmse_m": 0.0014344281360793422,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P3"
+      },
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          279,
+          247,
+          342,
+          281
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 217,
+          "plane_rmse_m": 0.0033718588393699947,
+          "plane_backend": "numpy",
+          "aperture_evidence": [],
+          "verified_openings": 0
+        },
+        "id": "P4"
+      }
+    ]
+  ]
+}

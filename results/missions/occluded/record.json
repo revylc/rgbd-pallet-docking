@@ -1,0 +1,61 @@
+{
+  "instruction": "取蓝色料箱下方的托盘",
+  "observations": [
+    {
+      "view_y_m": 0.0,
+      "decision": "REOBSERVE",
+      "candidates": [
+        {
+          "id": "P1",
+          "geometry": "REOBSERVE",
+          "reason": "two_verified_openings_required"
+        },
+        {
+          "id": "P2",
+          "geometry": "REOBSERVE",
+          "reason": "insufficient_face_support"
+        },
+        {
+          "id": "P3",
+          "geometry": "REOBSERVE",
+          "reason": "two_verified_openings_required"
+        },
+        {
+          "id": "P4",
+          "geometry": "REOBSERVE",
+          "reason": "two_verified_openings_required"
+        }
+      ]
+    },
+    {
+      "view_y_m": -0.5,
+      "decision": "REOBSERVE",
+      "candidates": [
+        {
+          "id": "P1",
+          "geometry": "REOBSERVE",
+          "reason": "two_verified_openings_required"
+        },
+        {
+          "id": "P2",
+          "geometry": "REOBSERVE",
+          "reason": "insufficient_face_support"
+        },
+        {
+          "id": "P3",
+          "geometry": "REOBSERVE",
+          "reason": "two_verified_openings_required"
+        },
+        {
+          "id": "P4",
+          "geometry": "REOBSERVE",
+          "reason": "insufficient_face_support"
+        }
+      ]
+    }
+  ],
+  "outcome": "INSUFFICIENT_VIEW",
+  "expected": "INSUFFICIENT_VIEW",
+  "success": true,
+  "geometry_verdict": null
+}

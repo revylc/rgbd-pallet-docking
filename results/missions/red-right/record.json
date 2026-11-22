@@ -1,0 +1,33 @@
+{
+  "instruction": "取红色料箱下方的托盘",
+  "observations": [
+    {
+      "view_y_m": 0.0,
+      "decision": "P2",
+      "candidates": [
+        {
+          "id": "P1",
+          "geometry": "ACCEPT",
+          "reason": "two_verified_openings"
+        },
+        {
+          "id": "P2",
+          "geometry": "ACCEPT",
+          "reason": "two_verified_openings"
+        }
+      ]
+    }
+  ],
+  "outcome": "DOCKED",
+  "expected": "DOCKED",
+  "success": true,
+  "geometry_verdict": {
+    "success": true,
+    "status": "success",
+    "reason": "Both tines entered their openings to the required depth",
+    "achieved_depth_m": 0.34001199084038497,
+    "required_depth_m": 0.3,
+    "contact_fraction": null,
+    "travel_fraction": 1.0
+  }
+}

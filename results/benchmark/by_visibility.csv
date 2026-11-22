@@ -1,0 +1,13 @@
+group,value,strategy,tasks,accepted,refused,success,false_accepts,oracle_feasible,coverage,wrong_release_rate,feasible_success_rate,feasible_rejections,revisits
+visibility,none,oracle,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,none,ideal_marks,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,none,single_view,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,none,one_revisit,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,partial,oracle,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,partial,ideal_marks,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,partial,single_view,60,0,60,0,0,60,0.0,,0.0,60,0
+visibility,partial,one_revisit,60,60,0,60,0,60,1.0,0.0,1.0,0,60
+visibility,severe,oracle,60,60,0,60,0,60,1.0,0.0,1.0,0,0
+visibility,severe,ideal_marks,60,0,60,0,0,60,0.0,,0.0,60,0
+visibility,severe,single_view,60,0,60,0,0,60,0.0,,0.0,60,0
+visibility,severe,one_revisit,60,0,60,0,0,60,0.0,,0.0,60,60

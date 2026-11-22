@@ -1,0 +1,157 @@
+{
+  "trial": "T000",
+  "outcomes": [
+    {
+      "scene_id": "T000",
+      "seed": 745301,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "none",
+      "kind": "single",
+      "strategy": "oracle",
+      "observations": 0,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "TRUTH_POSE",
+      "dock_status": "success",
+      "position_error_mm": 0.0,
+      "local_forward_error_mm": 0.0,
+      "local_left_error_mm": 0.0,
+      "local_up_error_mm": 0.0,
+      "yaw_error_deg": 0.0,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": 0.3682998940348625
+    },
+    {
+      "scene_id": "T000",
+      "seed": 745301,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "none",
+      "kind": "single",
+      "strategy": "ideal_marks",
+      "observations": 1,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "ORACLE_PIXELS",
+      "dock_status": "success",
+      "position_error_mm": 1.2323914755360112,
+      "local_forward_error_mm": -0.5838735043911342,
+      "local_left_error_mm": 0.7435580620054617,
+      "local_up_error_mm": -0.7905706092883324,
+      "yaw_error_deg": 0.10153117464844286,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": 0.7658000104129314
+    },
+    {
+      "scene_id": "T000",
+      "seed": 745301,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "none",
+      "kind": "single",
+      "strategy": "single_view",
+      "observations": 1,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "ACCEPT",
+      "dock_status": "success",
+      "position_error_mm": 0.6807646744932697,
+      "local_forward_error_mm": 0.03992401172810131,
+      "local_left_error_mm": -0.6788765062500838,
+      "local_up_error_mm": 0.031197829846674185,
+      "yaw_error_deg": 0.022053191173938558,
+      "render_ms": 31.092000077478588,
+      "perception_ms": 7.140400004573166,
+      "dock_ms": 0.4056000616401434
+    },
+    {
+      "scene_id": "T000",
+      "seed": 745301,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "none",
+      "kind": "single",
+      "strategy": "one_revisit",
+      "observations": 1,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "ACCEPT",
+      "dock_status": "success",
+      "position_error_mm": 0.6807646744932697,
+      "local_forward_error_mm": 0.03992401172810131,
+      "local_left_error_mm": -0.6788765062500838,
+      "local_up_error_mm": 0.031197829846674185,
+      "yaw_error_deg": 0.022053191173938558,
+      "render_ms": 31.092000077478588,
+      "perception_ms": 7.140400004573166,
+      "dock_ms": 0.3605999518185854
+    }
+  ],
+  "candidates": [
+    [
+      {
+        "status": "ACCEPT",
+        "reason": "two_verified_openings",
+        "bbox_xyxy": [
+          197,
+          146,
+          503,
+          283
+        ],
+        "center_world_m": [
+          1.7800945165040325,
+          -0.05700752877661783,
+          0.2500311978298467
+        ],
+        "holes_world_m": [
+          [
+            1.851233774145438,
+            0.18225276520742534,
+            0.24987827317763284
+          ],
+          [
+            1.7089552588626267,
+            -0.296267822760661,
+            0.2501841224820605
+          ]
+        ],
+        "inward_world": [
+          0.9585277995216087,
+          -0.2849990483216789,
+          -0.0
+        ],
+        "yaw_deg": -16.558791700130488,
+        "diagnostics": {
+          "face_support_points": 20306,
+          "plane_rmse_m": 0.0014854262256989107,
+          "plane_backend": "numpy",
+          "aperture_evidence": [
+            {
+              "width_m": 0.3231049481776753,
+              "height_m": 0.20515361944401508,
+              "free_fraction": 0.9984214680347278
+            },
+            {
+              "width_m": 0.32070444753347493,
+              "height_m": 0.20519331315675374,
+              "free_fraction": 0.9987707437000615
+            }
+          ],
+          "verified_openings": 2
+        },
+        "id": "P1"
+      }
+    ]
+  ]
+}

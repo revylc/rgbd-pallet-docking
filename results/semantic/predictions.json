@@ -1,0 +1,3080 @@
+[
+  {
+    "seed": 39000,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998586177825928,
+      "P2": 0.9999459981918335
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1990000018849969
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999089241027832,
+      "P2": 6.438582204282284e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052600051276385784
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 3.158704566885717e-05,
+      "P2": 0.9998459815979004
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.050699920393526554
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999293088912964,
+      "P2": 4.817861918127164e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.049299909733235836
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999263286590576,
+      "P2": 6.393402600224363e-06
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04830001853406429
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 8.762590732658282e-05,
+      "P2": 0.00010690927592804655
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.08519995026290417
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 8.31439028843306e-05,
+      "P2": 0.999906063079834
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04979991354048252
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00023107686138246208,
+      "P2": 5.5515123676741496e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.048200017772614956
+  },
+  {
+    "seed": 39000,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.62785305394209e-06,
+      "P2": 0.9998723268508911
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.046900007873773575
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999037981033325,
+      "P2": 0.9999345541000366
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.11450005695223808
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 2.3364385924651287e-05,
+      "P2": 0.9999551773071289
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05989999044686556
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.999875545501709,
+      "P2": 3.482592001091689e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05430006422102451
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998737573623657,
+      "P2": 0.00011821372027043253
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05309993866831064
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.634115223074332e-05,
+      "P2": 9.3279973953031e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05279993638396263
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999102354049683,
+      "P2": 6.496970399894053e-06
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052200048230588436
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0001595998037373647,
+      "P2": 0.9998325109481812
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05319993942975998
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.3740735640749335e-06,
+      "P2": 0.999908447265625
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052299932576715946
+  },
+  {
+    "seed": 39001,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.0002391333255218342,
+      "P2": 0.00010400445898994803
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05289993714541197
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999080896377563,
+      "P2": 0.9999490976333618
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1365999924018979
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.29788802244002e-05,
+      "P2": 7.756532431812957e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05830009467899799
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998750686645508,
+      "P2": 0.9998534917831421
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05440006498247385
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998664855957031,
+      "P2": 3.990819095633924e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.053900061175227165
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.173680619918741e-05,
+      "P2": 6.378220859915018e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.051900045946240425
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999023675918579,
+      "P2": 8.20872955955565e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0610999995842576
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00016367495118174702,
+      "P2": 0.9999226331710815
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.07259997073560953
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.368647063936805e-06,
+      "P2": 7.196883234428242e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0708999577909708
+  },
+  {
+    "seed": 39002,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00023350625997409225,
+      "P2": 0.9998956918716431
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.08350005373358727
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998548030853271,
+      "P2": 0.9999333620071411
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1382000045850873
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.999909520149231,
+      "P2": 0.9999514818191528
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.051900045946240425
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 3.0128025173326023e-05,
+      "P2": 3.651139195426367e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04970002919435501
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999278783798218,
+      "P2": 0.00011496472143335268
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04859990440309048
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999266862869263,
+      "P2": 8.564016752643511e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04850002005696297
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 8.309626718983054e-05,
+      "P2": 6.506804766104324e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0475000124424696
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 7.89589321357198e-05,
+      "P2": 0.9998378753662109
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04800001624971628
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00022764944878872484,
+      "P2": 0.9999032020568848
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.17969997134059668
+  },
+  {
+    "seed": 39003,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.607342584175058e-06,
+      "P2": 0.00011504477879498154
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05309993866831064
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999032020568848,
+      "P2": 0.9999382495880127
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.12330000754445791
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.3805710952728987e-05,
+      "P2": 5.225510903983377e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04600000102072954
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998791217803955,
+      "P2": 5.90101262787357e-05
+    },
+    "rule": "P1",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04349998198449612
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.999887228012085,
+      "P2": 0.00011792526493081823
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.06059999577701092
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.370199116645381e-05,
+      "P2": 6.4389519138785545e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04630000330507755
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999204874038696,
+      "P2": 6.8302715590107255e-06
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.07619999814778566
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00015363181591965258,
+      "P2": 0.9998087286949158
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04509999416768551
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.374547865561908e-06,
+      "P2": 2.768493322946597e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.07760000880807638
+  },
+  {
+    "seed": 39004,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00023704198247287422,
+      "P2": 0.00010302467126166448
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04700000863522291
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.999908447265625,
+      "P2": 0.999922513961792
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1183999702334404
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 5.521782077266835e-05,
+      "P2": 0.9999576807022095
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.054299947805702686
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.985206629091408e-05,
+      "P2": 3.755620855372399e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05230004899203777
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998557567596436,
+      "P2": 7.701865251874551e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05279993638396263
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.743177411612123e-05,
+      "P2": 7.610276952618733e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05040003452450037
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.860752935404889e-05,
+      "P2": 6.475944246631116e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05070003680884838
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00014428270515054464,
+      "P2": 0.9998992681503296
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.10800000745803118
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.533990472235018e-06,
+      "P2": 0.999948263168335
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.3060000017285347
+  },
+  {
+    "seed": 39005,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.589175882254494e-06,
+      "P2": 0.00022793440439272672
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.17010001465678215
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999086856842041,
+      "P2": 0.9999363422393799
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.11750007979571819
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.6922624935396016e-05,
+      "P2": 5.273422721074894e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.057299970649182796
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.8453774575609714e-05,
+      "P2": 5.348449485609308e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052200048230588436
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998441934585571,
+      "P2": 0.0001101037414628081
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05170004442334175
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.470789569197223e-05,
+      "P2": 6.435164323193021e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05150004290044308
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.267426968202926e-05,
+      "P2": 6.786982339690439e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05279993638396263
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00015485577750951052,
+      "P2": 0.9998156428337097
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.06640003994107246
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.552323611686006e-06,
+      "P2": 2.896685509767849e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05680008325725794
+  },
+  {
+    "seed": 39006,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.587573807337321e-06,
+      "P2": 9.823663276620209e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052200048230588436
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998555183410645,
+      "P2": 0.9999376535415649
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.11700007598847151
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998906850814819,
+      "P2": 5.1733939471887425e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0619000056758523
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.6149613404413685e-05,
+      "P2": 5.8797912060981616e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.15860004350543022
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998779296875,
+      "P2": 0.00011305356019875035
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.14939997345209122
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.999847412109375,
+      "P2": 6.432649115595268e-06
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.057299970649182796
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 4.724951213574968e-05,
+      "P2": 6.820409907959402e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05389994475990534
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00011599043500609696,
+      "P2": 0.9998164772987366
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05300005432218313
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.0003041127638425678,
+      "P2": 2.817022686940618e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052600051276385784
+  },
+  {
+    "seed": 39007,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.654517164861318e-06,
+      "P2": 0.00010701606515794992
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05300005432218313
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.999908447265625,
+      "P2": 0.9999439716339111
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1268000341951847
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.5655487813055515e-05,
+      "P2": 0.00010030178964370862
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04680000711232424
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 2.9586817618110217e-05,
+      "P2": 0.9998857975006104
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05359994247555733
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998607635498047,
+      "P2": 3.444200046942569e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04539999645203352
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 8.043563866522163e-05,
+      "P2": 6.396348453563405e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.043899985030293465
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.939119728282094e-05,
+      "P2": 8.687758963787928e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.044199987314641476
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00013984314864501357,
+      "P2": 0.9999402761459351
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.043199979700148106
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.5307694967486896e-06,
+      "P2": 0.00013013998977839947
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04239997360855341
+  },
+  {
+    "seed": 39008,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.580528861377388e-06,
+      "P2": 0.9999375343322754
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05439994856715202
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998573064804077,
+      "P2": 0.999946117401123
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.17079990357160568
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998936653137207,
+      "P2": 6.3711529946886e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05589995998889208
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 3.032565291505307e-05,
+      "P2": 0.9998420476913452
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.057999975979328156
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999339580535889,
+      "P2": 4.776807327289134e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.053299940191209316
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999220371246338,
+      "P2": 6.390397629729705e-06
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05149992648512125
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 9.0119028754998e-05,
+      "P2": 0.00010366809874540195
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05240004975348711
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 7.401135371765122e-05,
+      "P2": 0.9999089241027832
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05410006269812584
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00017475683125667274,
+      "P2": 5.627419159281999e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.054999953135848045
+  },
+  {
+    "seed": 39009,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.595444119739113e-06,
+      "P2": 0.9998735189437866
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05100003909319639
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998990297317505,
+      "P2": 0.9999210834503174
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.12750003952533007
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 2.2898813767824322e-05,
+      "P2": 0.9999591112136841
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.051699928008019924
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998663663864136,
+      "P2": 3.658653804450296e-05
+    },
+    "rule": "P1",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04879990592598915
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998691082000732,
+      "P2": 8.459054515697062e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04780001472681761
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.457345105241984e-05,
+      "P2": 8.710471593076363e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.049200025387108326
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999063014984131,
+      "P2": 6.486012352979742e-06
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.07489998824894428
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00016230405890382826,
+      "P2": 0.9998868703842163
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05289993714541197
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.376626970450161e-06,
+      "P2": 0.9999469518661499
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.049299909733235836
+  },
+  {
+    "seed": 39010,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00023917142243590206,
+      "P2": 0.0001946755510289222
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.08219992741942406
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.999907374382019,
+      "P2": 0.9999405145645142
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1721999142318964
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.2975900719757192e-05,
+      "P2": 7.624783756909892e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.21900003775954247
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998476505279541,
+      "P2": 0.9998562335968018
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.19940000493079424
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.999769389629364,
+      "P2": 3.421278597670607e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.08629995863884687
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 3.6588106013368815e-05,
+      "P2": 6.371016297634924e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.057399971410632133
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998179078102112,
+      "P2": 7.915894821053371e-05
+    },
+    "rule": "P1",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.054600066505372524
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0002433829358778894,
+      "P2": 0.9999399185180664
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05319993942975998
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.407362889149226e-06,
+      "P2": 0.00010781818855321035
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05289993714541197
+  },
+  {
+    "seed": 39011,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0003025831247214228,
+      "P2": 0.9999300241470337
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052900053560733795
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998531341552734,
+      "P2": 0.9999241828918457
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.13159995432943106
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999161958694458,
+      "P2": 0.9999563694000244
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05570007488131523
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.979069176944904e-05,
+      "P2": 3.650913276942447e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04949991125613451
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999223947525024,
+      "P2": 8.249354868894443e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04980002995580435
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999276399612427,
+      "P2": 7.707771874265745e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.047600013203918934
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.658500544494018e-05,
+      "P2": 6.476666840171674e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04939991049468517
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 8.511974010616541e-05,
+      "P2": 0.9998866319656372
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04710000939667225
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00027696951292455196,
+      "P2": 0.9999412298202515
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04900002386420965
+  },
+  {
+    "seed": 39012,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.621725333388895e-06,
+      "P2": 0.00018471339717507362
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04909990821033716
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999130964279175,
+      "P2": 0.9999380111694336
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1265000319108367
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.666296495590359e-05,
+      "P2": 5.19024433742743e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052699935622513294
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.999893307685852,
+      "P2": 6.007633783156052e-05
+    },
+    "rule": "P1",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.050900038331747055
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998587369918823,
+      "P2": 0.00011364706006133929
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.050999922677874565
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.935241642873734e-05,
+      "P2": 6.432906047848519e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04889990668743849
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999054670333862,
+      "P2": 6.826944172644289e-06
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.13669999316334724
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0001970034936675802,
+      "P2": 0.999816358089447
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.10080006904900074
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.40942198515404e-06,
+      "P2": 2.8099690098315477e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.1487999688833952
+  },
+  {
+    "seed": 39013,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "red",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00031872530234977603,
+      "P2": 0.0001088466597138904
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.062700011767447
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999085664749146,
+      "P2": 0.9999274015426636
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.11249992530792952
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 5.5989741667872295e-05,
+      "P2": 0.9999568462371826
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05679996684193611
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.900212348322384e-05,
+      "P2": 3.69336994481273e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0540000619366765
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998445510864258,
+      "P2": 8.871860336512327e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05330005660653114
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.376973371719941e-05,
+      "P2": 8.058165985858068e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.12330000754445791
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.4055548389442265e-05,
+      "P2": 6.484256573457969e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05419994704425335
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.00015512979007326066,
+      "P2": 0.999882698059082
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.052999937906861305
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.548638339154422e-06,
+      "P2": 0.9999381303787231
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05370005965232849
+  },
+  {
+    "seed": 39014,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "blue"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.593620128114708e-06,
+      "P2": 0.0001732607197482139
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05719996988773346
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.999908447265625,
+      "P2": 0.9999370574951172
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.23589993361383677
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.593882451648824e-05,
+      "P2": 5.194731056690216e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.08420005906373262
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.923950887634419e-05,
+      "P2": 5.8505567722022533e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.051699928008019924
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998440742492676,
+      "P2": 0.00010775632108561695
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.054699950851500034
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.34765490051359e-05,
+      "P2": 6.428251708712196e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05489995237439871
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.448328738566488e-05,
+      "P2": 6.809244951000437e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.055699958465993404
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0001561133103678003,
+      "P2": 0.999826967716217
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.057699973694980145
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.549331374117173e-06,
+      "P2": 2.921188934124075e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05929998587816954
+  },
+  {
+    "seed": 39015,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.597369065275416e-06,
+      "P2": 0.00011292835552012548
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.053600058890879154
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9998525381088257,
+      "P2": 0.9999370574951172
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.10770000517368317
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999105930328369,
+      "P2": 5.262582271825522e-05
+    },
+    "rule": "P1",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.06250001024454832
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 2.960844176413957e-05,
+      "P2": 5.4634114349028096e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05119992420077324
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999291896820068,
+      "P2": 0.00011473627091618255
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.06059999577701092
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9999299049377441,
+      "P2": 6.438933723984519e-06
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.18700002692639828
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 8.303511276608333e-05,
+      "P2": 6.8015092438145075e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05080003757029772
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 7.734153041383252e-05,
+      "P2": 0.9998082518577576
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04980002995580435
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 0.00023008973221294582,
+      "P2": 2.8210120945004746e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.048900023102760315
+  },
+  {
+    "seed": 39016,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      "blue",
+      null
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.600307642656844e-06,
+      "P2": 9.646526450524107e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.047900015488266945
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "AMBIGUOUS",
+    "decision": "AMBIGUOUS",
+    "scores": {
+      "P1": 0.9999083280563354,
+      "P2": 0.9999406337738037
+    },
+    "rule": "AMBIGUOUS",
+    "greyscale": "AMBIGUOUS",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.13029994443058968
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.48450589121785e-05,
+      "P2": 8.763526420807466e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.0518999295309186
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 3.013262539752759e-05,
+      "P2": 0.9998737573623657
+    },
+    "rule": "P2",
+    "greyscale": "UNCERTAIN",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.048299902118742466
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选左边托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P1",
+    "decision": "P1",
+    "scores": {
+      "P1": 0.9998573064804077,
+      "P2": 3.4480352042010054e-05
+    },
+    "rule": "P1",
+    "greyscale": "P1",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04980002995580435
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选左边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 7.765553164063022e-05,
+      "P2": 6.388734163920162e-06
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04810001701116562
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选左边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 5.970892743789591e-05,
+      "P2": 8.603642345406115e-05
+    },
+    "rule": "ABSENT",
+    "greyscale": "ABSENT",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.050699920393526554
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选右边托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 0.0001431349228369072,
+      "P2": 0.9999402761459351
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.05140004213899374
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选右边蓝色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "ABSENT",
+    "decision": "ABSENT",
+    "scores": {
+      "P1": 6.531312010338297e-06,
+      "P2": 0.0001226539898198098
+    },
+    "rule": "ABSENT",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04939991049468517
+  },
+  {
+    "seed": 39017,
+    "instruction": "请选右边红色箱子下面的托盘",
+    "cargo_left_to_right": [
+      null,
+      "red"
+    ],
+    "expected": "P2",
+    "decision": "P2",
+    "scores": {
+      "P1": 6.590684279217385e-06,
+      "P2": 0.9999357461929321
+    },
+    "rule": "P2",
+    "greyscale": "P2",
+    "no_instruction": "AMBIGUOUS",
+    "candidates_aligned": true,
+    "selector_latency_ms": 0.04809990059584379
+  }
+]

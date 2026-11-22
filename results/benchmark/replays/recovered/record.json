@@ -1,0 +1,187 @@
+{
+  "trial": "T001",
+  "outcomes": [
+    {
+      "scene_id": "T001",
+      "seed": 745302,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "partial",
+      "kind": "single",
+      "strategy": "oracle",
+      "observations": 0,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "TRUTH_POSE",
+      "dock_status": "success",
+      "position_error_mm": 0.0,
+      "local_forward_error_mm": 0.0,
+      "local_left_error_mm": 0.0,
+      "local_up_error_mm": 0.0,
+      "yaw_error_deg": 0.0,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": 0.4140000091865659
+    },
+    {
+      "scene_id": "T001",
+      "seed": 745302,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "partial",
+      "kind": "single",
+      "strategy": "ideal_marks",
+      "observations": 1,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "ORACLE_PIXELS",
+      "dock_status": "success",
+      "position_error_mm": 1.2354464756192134,
+      "local_forward_error_mm": -0.11591959065538672,
+      "local_left_error_mm": 0.6754271444490741,
+      "local_up_error_mm": -1.0279537028308194,
+      "yaw_error_deg": 0.1708065630233193,
+      "render_ms": null,
+      "perception_ms": null,
+      "dock_ms": 0.4248000914230943
+    },
+    {
+      "scene_id": "T001",
+      "seed": 745302,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "partial",
+      "kind": "single",
+      "strategy": "single_view",
+      "observations": 1,
+      "accepted": false,
+      "success": false,
+      "oracle_feasible": true,
+      "reason": "two_verified_openings_required",
+      "dock_status": "not_attempted",
+      "position_error_mm": null,
+      "local_forward_error_mm": null,
+      "local_left_error_mm": null,
+      "local_up_error_mm": null,
+      "yaw_error_deg": null,
+      "render_ms": 30.876200064085424,
+      "perception_ms": 7.000799989327788,
+      "dock_ms": null
+    },
+    {
+      "scene_id": "T001",
+      "seed": 745302,
+      "layout": 0,
+      "distance_bin_m": 1.8,
+      "yaw_bin_deg": -16,
+      "visibility": "partial",
+      "kind": "single",
+      "strategy": "one_revisit",
+      "observations": 2,
+      "accepted": true,
+      "success": true,
+      "oracle_feasible": true,
+      "reason": "ACCEPT",
+      "dock_status": "success",
+      "position_error_mm": 1.9673350988566332,
+      "local_forward_error_mm": 0.14079100540630585,
+      "local_left_error_mm": -1.9618986615155218,
+      "local_up_error_mm": -0.039229146479691224,
+      "yaw_error_deg": 0.015107695990820957,
+      "render_ms": 60.98129996098578,
+      "perception_ms": 14.680600026622415,
+      "dock_ms": 1.2127000372856855
+    }
+  ],
+  "candidates": [
+    [
+      {
+        "status": "REOBSERVE",
+        "reason": "two_verified_openings_required",
+        "bbox_xyxy": [
+          192,
+          146,
+          498,
+          281
+        ],
+        "center_world_m": null,
+        "holes_world_m": null,
+        "inward_world": null,
+        "yaw_deg": null,
+        "diagnostics": {
+          "face_support_points": 17817,
+          "plane_rmse_m": 0.0014826328930432247,
+          "plane_backend": "numpy",
+          "aperture_evidence": [
+            {
+              "width_m": 0.3229987289274029,
+              "height_m": 0.20552820455630405,
+              "free_fraction": 1.0
+            }
+          ],
+          "verified_openings": 1
+        },
+        "id": "P1"
+      }
+    ],
+    [
+      {
+        "status": "ACCEPT",
+        "reason": "two_verified_openings",
+        "bbox_xyxy": [
+          46,
+          146,
+          356,
+          281
+        ],
+        "center_world_m": [
+          1.7875993001920258,
+          -0.04633643197761589,
+          0.2499607708535203
+        ],
+        "holes_world_m": [
+          [
+            1.8528232323891483,
+            0.19456478145154255,
+            0.24979507541427434
+          ],
+          [
+            1.7223753679949034,
+            -0.2872376454067743,
+            0.25012646629276625
+          ]
+        ],
+        "inward_world": [
+          0.9652467374475627,
+          -0.2613402683224225,
+          -0.0
+        ],
+        "yaw_deg": -15.149603790310373,
+        "diagnostics": {
+          "face_support_points": 18971,
+          "plane_rmse_m": 0.0014570634467969436,
+          "plane_backend": "numpy",
+          "aperture_evidence": [
+            {
+              "width_m": 0.3164820201829155,
+              "height_m": 0.2052084798595601,
+              "free_fraction": 0.9991394148020654
+            },
+            {
+              "width_m": 0.31958864962379474,
+              "height_m": 0.20540431904738415,
+              "free_fraction": 0.9993211133740665
+            }
+          ],
+          "verified_openings": 2
+        },
+        "id": "P1"
+      }
+    ]
+  ]
+}

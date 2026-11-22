@@ -1,0 +1,32 @@
+{
+  "scope": "two rendered pallet bodies; candidate proposal + semantic choice, before docking",
+  "train_scenes": 27,
+  "test_scenes": 18,
+  "test_tasks": 162,
+  "aligned_proposal_tasks": 162,
+  "grounder_correct": 162,
+  "rule_correct": 162,
+  "greyscale_correct": 100,
+  "no_instruction_correct": 22,
+  "aligned_grounder_correct": 162,
+  "by_expected": {
+    "P1": {
+      "count": 38,
+      "correct": 38
+    },
+    "P2": {
+      "count": 38,
+      "correct": 38
+    },
+    "ABSENT": {
+      "count": 64,
+      "correct": 64
+    },
+    "AMBIGUOUS": {
+      "count": 22,
+      "correct": 22
+    }
+  },
+  "selector_latency_p50_ms": 0.05319993942975998,
+  "weights_parameters": 2341
+}

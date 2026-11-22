@@ -1,0 +1,25 @@
+{
+  "instruction": "取红色料箱下方的托盘",
+  "observations": [
+    {
+      "view_y_m": 0.0,
+      "decision": "ABSENT",
+      "candidates": [
+        {
+          "id": "P1",
+          "geometry": "ACCEPT",
+          "reason": "two_verified_openings"
+        },
+        {
+          "id": "P2",
+          "geometry": "ACCEPT",
+          "reason": "two_verified_openings"
+        }
+      ]
+    }
+  ],
+  "outcome": "ABSENT",
+  "expected": "ABSENT",
+  "success": true,
+  "geometry_verdict": null
+}
